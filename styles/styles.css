@@ -75,3 +75,44 @@ h6 {
 }
 
 /* !code srart */
+
+bbody {
+  background-color: #f0f0f0;
+  position: relative;
+  min-height: 100vh;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #888888;
+}
+
+.center-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #888888;
+}
+
+.input-container {
+  position: relative;
+}
+.input-icon {
+  position: absolute;
+}
